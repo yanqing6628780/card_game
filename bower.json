@@ -1,0 +1,24 @@
+{
+  "name": "wechat",
+  "description": "",
+  "main": "",
+  "authors": [
+    "sam_leung <42565372@qq.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.5.0"
+  }
+}

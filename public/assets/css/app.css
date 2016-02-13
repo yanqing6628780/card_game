@@ -1,0 +1,42 @@
+body{
+    background-color: #FFE2E5;
+    font-size: 1.4rem;
+}
+
+.my-jumbotron{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem 0;
+    background-color: #fff;
+}
+.my-jumbotron p{
+    font-size: 1.4rem;
+}
+
+.image-coloring{}
+
+.image-coloring img{
+    max-width: 20%;
+    float: left;
+    border: 1px solid #E7E2E3;
+}
+.image-coloring img.gray{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.mask{
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    color: #fff;
+    padding-top: 20%;
+}
