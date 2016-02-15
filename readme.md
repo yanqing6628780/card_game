@@ -17,10 +17,10 @@ Tokenizer PHP Extension
 请参考[这篇文章](http://www.cnblogs.com/yanqing/p/5183556.html)  
 
 ## laravel安装
-执行 composer install
-遇到错误提示百度解决
+执行 composer install  
+遇到错误提示百度解决  
 
-将.env.example复制成.env
+将.env.example复制成.env  
 .env为配置文件  
 
 >这是数据库配置  
