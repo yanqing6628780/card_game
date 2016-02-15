@@ -18,6 +18,7 @@ Tokenizer PHP Extension
 
 ## laravel安装
 执行 composer install  
+创建数据库内的数据表,执行 php artisan migrate  
 遇到错误提示百度解决  
 
 将.env.example复制成.env  
