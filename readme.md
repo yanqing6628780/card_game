@@ -62,5 +62,5 @@ URL填写: 域名/wechat/server
 resources/views/game.blade.php #游戏页面  
 resources/views/register.blade.php #注册页面  
 resources/views/_layouts #页面共用部分  
-中奖名单在数据库的cards表.is_winner字段为1的就是中奖的人
+中奖名单在数据库的cards表.is_winner字段为1的就是中奖的人  
 数据库的wechat_users表是注册用户的信息  
