@@ -56,4 +56,11 @@ card_10_hits=1
 ## 微信公众平台配置  
 填写服务器配置  
 URL填写: 域名/wechat/server  
-游戏需要网页授权获取用户基本信息.到[接口权限]->[网页授权获取用户基本信息],配置授权回调页面域名
+游戏需要网页授权获取用户基本信息.到[接口权限]->[网页授权获取用户基本信息],配置授权回调页面域名  
+
+## 其他
+resources/views/game.blade.php #游戏页面  
+resources/views/register.blade.php #注册页面  
+resources/views/_layouts #页面共用部分  
+中奖名单在数据库的cards表.is_winner字段为1的就是中奖的人
+数据库的wechat_users表是注册用户的信息  
