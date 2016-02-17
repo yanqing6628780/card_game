@@ -69,7 +69,7 @@ var activated_card = {{$activated_card}};
 // wx.ready(function(){
 //     
 //     wx.onMenuShareTimeline({
-//         title: '好运自然来',
+//         title: '全能保险柜好礼送给你！',
 //         link: '{{action("homeController@getGame", [$player->id])}}',
 //         imgUrl: "{{url('assets/images/header.jpg')}}",
 //         success: function () { 
