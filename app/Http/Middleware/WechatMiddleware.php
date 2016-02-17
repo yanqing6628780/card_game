@@ -21,7 +21,7 @@ class WechatMiddleware
     public function handle($request, Closure $next)
     {
         $config = [
-            'debug'     => true,
+            'debug'     => env('APP_DEBUG', false),
             'app_id'    => env('WECHAT_APP_ID'),
             'secret'    => env('WECHAT_APP_Secret'),
             'token'     => env('WECHAT_TOKEN'),

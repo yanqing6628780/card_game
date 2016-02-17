@@ -1,7 +1,7 @@
 @extends('_layouts.default')
 
 @section('content')
-<h4 class="title">十八的色卡，帮TA领礼品</h4>
+<h4 class="title">{{$player->name}}的色卡，帮TA领礼品</h4>
 <div class="image-coloring clearfix">
     <div style="display: table;margin: 0 auto">
     @for ($i = 1; $i < 6; $i++)

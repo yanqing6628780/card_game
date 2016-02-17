@@ -15,7 +15,7 @@ class wechatController extends Controller
     public function __construct()
     {
         $this->config = [
-            'debug'     => true,
+            'debug'     => env('APP_DEBUG', false),
             'app_id'    => env('WECHAT_APP_ID'),
             'secret'    => env('WECHAT_APP_Secret'),
             'token'     => env('WECHAT_TOKEN'),

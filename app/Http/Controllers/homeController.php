@@ -22,6 +22,7 @@ class homeController extends Controller
         $this->open_id = session('wechat_user.id');
         $this->user = null;
         $this->register_url = action('homeController@getRegister');
+        $this->app = new Application(session('wechat_app_config'));
 
         $user_builder = wechat_user::where('open_id', $this->open_id);
         if ($user_builder->count() > 0) {
@@ -125,6 +126,12 @@ class homeController extends Controller
 
     public function postRegister()
     {
+        $userService = $this->app['user'];
+        $user_info = $userService->get($this->open_id);
+        if($user_info['subscribe'] != 1){
+            return redirect()->back()->withErrors(['请先关注公众号']);
+        }
+
         $post_data = $this->request->all();
         $msgs = [
             'name.required' => '请填写姓名',
